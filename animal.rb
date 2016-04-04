@@ -1,6 +1,6 @@
 module Flight
   def fly
-    puts "I am a #{self.class.name} and I am flying."
+    puts "I am a #{self.class.name.to_s.downcase} and I am flying."
   end
 end
 
